@@ -12,7 +12,7 @@ Create a simple JavaScript program that takes a student's score as input and ret
 
 ***/
 
-let score = -2;
+let score = 12;
 
 if (score >= 90 && score <= 100) {
     console.log("Congratulations! You got A");
