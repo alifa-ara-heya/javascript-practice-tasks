@@ -6,13 +6,13 @@ Free Drinks
 */
 
 let burgerPrice = 300;
-let coke;
+let cokePrice;
 
 if (burgerPrice > 500) {
-    coke = 0;
+    cokePrice = 0;
     console.log("free coke");
 }
 else {
-    coke = 30;
-    console.log(`You will have to pay ${coke} taka`);
+    cokePrice = 30;
+    console.log(`You will have to pay ${cokePrice} taka`);
 }
