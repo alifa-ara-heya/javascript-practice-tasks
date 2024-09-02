@@ -4,7 +4,7 @@ for (const number of numbers){
     console.log(number);
 }
 
-// while loops
+// while loops, printing numners from 0 to 10
 let num = 0; //loop variable
 
 while (num <= 10) { //loop condition
@@ -24,8 +24,8 @@ for (iki = 0; iki <= 10; iki++) {
 }
 
 // printing odd numbers using for
-for (odd = 1; odd <= 20; odd = odd + 2) {
-    console.log(odd);
+for (odd2 = 1; odd2 <= 20; odd2 = odd2 + 2) {
+    console.log(odd2);
 }
 
 // printing even numbers 
