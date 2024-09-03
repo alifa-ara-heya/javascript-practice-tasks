@@ -29,3 +29,6 @@ console.log(numbers); //[ 5, 1, -2, 'h', 9, 1 ]
 capital[0] = "a";
 console.log(capital); //Dh aka, no change, therefore immuatble.
 
+// .toLowerCase, .toUpperCase only work for strings, not for arrays.
+
+// concat, includes work for both
