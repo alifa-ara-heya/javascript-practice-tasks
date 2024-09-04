@@ -13,7 +13,7 @@ console.log(sentence.split(" ")); //[ 'I', 'am', 'a', 'good', 'and', 'hardworkin
 const friendsStr = "mahim, fahim, abdullah, abd urrahman, jahid";
 console.log(typeof(friendsStr)); //string
 friends = friendsStr.split(',');
-console.log(friends); // //[ 'mahim', ' fahim', ' abdullah', ' abdurrahman', ' jahid' ]
+console.log(friends); //[ 'mahim', ' fahim', ' abdullah', ' abdurrahman', ' jahid' ]
 console.log(typeof(friends)); //object
 
 // join = opposite of split
