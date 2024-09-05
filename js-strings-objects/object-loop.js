@@ -8,8 +8,8 @@ const mobile = {
 // for of = array
 // for in = object
 for (const prop in mobile) {
-    console.log(prop);
-    console.log(mobile[prop]);
+    console.log(prop); //shows the property, e.g. brand
+    console.log(mobile[prop]); //shows the value, e.g. 'samsung'
 }
 
 
@@ -20,6 +20,6 @@ for (const key of keys) {
     console.log(key); //because key is an array, that's why we used 'of'
 }
 for (const key of keys) {
-    console.log(key, '+', mobile[key]); 
+    console.log(key, '+', mobile[key]); //brand + samsung    price + 25000     color + black   camera + 12mp
 }
 

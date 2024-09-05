@@ -16,6 +16,7 @@ console.log(sentence);
 
 // chatgpt says this is not efficient. although it worked. "Eyamine the foy in the boy"
 
+//replace basics
 
 let str = "hello world!"
 str = str.replace("x", "y");

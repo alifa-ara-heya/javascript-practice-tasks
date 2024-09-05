@@ -17,3 +17,14 @@ const bottle = {
         number: 12
     }
 }
+
+// adding a property and a value to an object
+
+const car = {
+    make: "Toyota",
+    model: "Corolla",
+    year: 2020
+};
+
+car.passenger = 5;
+console.log(car); //{ make: 'Toyota', model: 'Corolla', year: 2020, passenger: 5 }
