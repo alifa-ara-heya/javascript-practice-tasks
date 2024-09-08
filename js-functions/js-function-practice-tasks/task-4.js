@@ -3,5 +3,14 @@ Write a function called count_zero() which will take a binary string (Binary str
 
 
 function count_zero(binaryString){
-    
+    let count = 0;
+    for (const letter of binaryString){
+        if (letter === "0"){
+            count++;
+        }
+    }
+    return count;
 }
+
+const str = '010110000011';
+console.log(count_zero(str)); //7
